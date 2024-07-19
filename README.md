@@ -15,3 +15,11 @@
 - Eg: whois teslamotors.com --> can get plenty of informations
 
 2. nslookup and dig: Find the IP address of a domain name using nslookup (Name Server Look Up).
+
+- Eg: nslookup solarcity.com --> IP address of the victim machine can be seen.
+
+- nslookup -types=ns solarcity --->  IP address of your machine. Need to get nameserver of the target machine.
+
+- nslookup -type=soa solarcity.com --> to get start of 30 records.
+
+- nslookup -type=mx solarcity.com --> to find mail server of your target machine
