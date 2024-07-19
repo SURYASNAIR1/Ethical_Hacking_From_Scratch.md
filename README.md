@@ -1,1 +1,0 @@
-# Ethical_Hacking_From_Scratch.md
